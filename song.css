@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f5eb;
+    background-image: url('dance.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 36, 36, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #277555;
+    font-size: 40px;
+    font-family: 'Archivo Black';
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #010101;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.artist {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.support-btn {
+    display: inline-block;
+    background-color: #ffd2ae;
+    color: #333;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.support-btn:hover {
+    background-color: #ffb98f;
+}
+
+.content {
+    background-color: #dedede;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to left, rgba(30, 27, 27, 0.15),
+     transparent);
+}
+
+.lyrics-title {
+    margin-bottom: 20px;
+    color: #277555;
+    font-size: 28px;
+}
+
+.lyrics {
+    white-space: pre-wrap;
+    color: #277555;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+audio {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.video-btn,
+.surprise-btn,
+.friend-btn {
+    display: inline-block;
+    width: 200px;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: #ffd2ae;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+}
+
+.video-btn:hover,
+.surprise-btn:hover,
+.friend-btn:hover {
+    background-color: #2c3f32;
+}
+
+@font-face {
+    font-family: 'Archivo Black' ;
+    src: url(ARCH2.ttf);
+    font-weight: normal;
+}
+
